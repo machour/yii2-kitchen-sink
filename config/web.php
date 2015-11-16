@@ -3,12 +3,12 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
+    'name' => 'Yii2 Kitchen Sink',
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
         'request' => [
-            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'AS6QHxujVBKhgRAUiHMad_CeUUUfzRib',
         ],
         'cache' => [
