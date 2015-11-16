@@ -31,6 +31,7 @@
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     ['label' => 'Yii2 Extensions', 'options' => ['class' => 'header']],
+                    ['label' => 'yii2-notifications', 'url' => ['site/yii2-notifications'], 'icon' => 'fa fa-warning'],
                 ],
             ]
         ) ?>
