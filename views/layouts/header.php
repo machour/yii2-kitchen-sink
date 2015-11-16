@@ -34,7 +34,7 @@ use yii\helpers\Html;
                 <li class="dropdown notifications-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-bell-o"></i>
-                        <span class="label label-warning notifications-icon-count">10</span>
+                        <span class="label label-warning notifications-icon-count">0</span>
                     </a>
                     <ul class="dropdown-menu">
                         <li class="header">You have <span class="notifications-header-count">0</span> notifications</li>
